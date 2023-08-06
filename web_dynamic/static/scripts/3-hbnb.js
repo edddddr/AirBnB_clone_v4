@@ -1,5 +1,6 @@
 $(document).ready(function() {
   const apiUrl = 'http://0.0.0.0:5001/api/v1/places_search/';
+  
   function createPlaceCard(place) {
     const article = $('<article>');
     const title =  $('<h2>').text(place.name);
